@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+    font-size: 1.2em;
+}
+
+.text-title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 8rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.281);
+}
+
+.bg-title {
+    background: url('../img/banner.jpg') center center no-repeat;
+}
+
+.bg-titulo-contato {
+    background: url('../img/contato.png') center center no-repeat;
+}
+
+.bg-footer {
+    background: #2c5050;
+}
+
+.bg-nav {
+    background-image: linear-gradient(to bottom right, #194d56, #407c9e);
+}
+
+.titulo {
+    font-size: 1.6em;
+}
+
+@media (max-width: 576px) {
+    .text-title {
+        font-size: 3rem;
+    }
+    .text-subtitle {
+        font-size: 1rem;
+    }
+    .bg-title {
+        background-image: linear-gradient(to bottom right, #194d56, #40889e);
+    }
+    .bg-titulo-contato {
+        background-image: linear-gradient(to bottom right, #2d7683, #095066);
+    }
+}
